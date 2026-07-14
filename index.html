@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Basica</title>
+
+<style>
+
+.botones{
+    padding: 20px;
+}
+
+.clase1{
+    padding: 20px;
+    border: solid 2px greenyellow;
+    background-color: red;
+    color: chartreuse;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+
+#ID{
+    padding: 20px 25px;
+    font-size: 16.5px;
+    border: solid 2px greenyellow;
+    background-color: aquamarine;
+    color: red;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+</style>
+
+
+</head>
+<body style="background-color: black;">
+
+    <div class="calculadora" style="text-align: center;">
+        <div class="botones">
+
+            <input type="text" class="pantalla" id="ID" readonly style="text-align: right;">
+            <p></p>
+            <BUtton type="button" onclick="boton (7)" class="clase1">7</BUtton>
+            <BUtton type="button" onclick="boton (8)" class="clase1">8</BUtton>
+            <BUtton type="button" onclick="boton (9)" class="clase1">9</BUtton>
+            <BUtton type="button" onclick="boton ('+')" class="clase1">+</BUtton>
+            <p></p>
+            <BUtton type="button" onclick="boton (4)" value="4" class="clase1">4</BUtton>
+            <BUtton type="button" onclick="boton (5)" value="5" class="clase1">5</BUtton>
+            <BUtton type="button" onclick="boton (6)" value="6" class="clase1">6</BUtton>
+            <BUtton type="button" onclick="boton ('-')" class="clase1" style="padding: 20px 24px;">-</BUtton>
+            <p></p>
+            <BUtton type="button" onclick="boton (1)" class="clase1">1</BUtton>
+            <BUtton type="button" onclick="boton (2)" class="clase1">2</BUtton>
+            <BUtton type="button" onclick="boton (3)" class="clase1">3</BUtton>
+            <BUtton type="button" onclick="boton ('*')" class="clase1" style="padding: 20px 24px;">*</BUtton>
+            <p></p>
+            <BUtton type="button" onclick="boton (0)" class="clase1">0</BUtton>
+            <BUtton type="button" onclick="resultado ()" class="clase1">=</BUtton>
+            <BUtton type="button" onclick="borrar()" class="clase1">C</BUtton>
+            <BUtton type="button" onclick="boton ('/')" value="/" class="clase1" style="padding: 20px 24px;">/</BUtton>
+        </div>
+    </div>
+
+    <script src="Reto4.js"></script>
+</body>
+</html>
